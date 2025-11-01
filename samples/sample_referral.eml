@@ -1,0 +1,82 @@
+From: Dr. Sarah Thompson <s.thompson@gp-surgery.nhs.uk>
+To: referrals@diabetes-clinic.nhs.uk
+Subject: Referral - John Smith - Type 2 Diabetes Management
+Date: Mon, 15 Jan 2024 09:30:00 +0000
+Message-ID: <msg-001-2024@gp-surgery.nhs.uk>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary123"
+
+--boundary123
+Content-Type: text/plain; charset="utf-8"
+
+Dear Diabetes Specialist Team,
+
+RE: URGENT REFERRAL - Type 2 Diabetes Management
+
+Patient Details:
+Name: John Smith
+Date of Birth: 14th July 1982 (Age 41)
+NHS Number: NHS001234
+Contact: 07700 900123
+
+Clinical Summary:
+Mr. Smith is a 41-year-old male with poorly controlled Type 2 Diabetes Mellitus. He was diagnosed 3 years ago and has been managed in primary care with oral hypoglycemic agents.
+
+Current Medications:
+- Metformin 500mg BD (Twice daily)
+- Lisinopril 10mg OD (For hypertension)
+
+Recent Investigations:
+- HbA1c: 9.2% (77 mmol/mol) - Date: 10/01/2024
+- Fasting Glucose: 12.4 mmol/L
+- Blood Pressure: 145/92 mmHg
+- BMI: 32.5
+- eGFR: 75 ml/min (Stage 2 CKD)
+
+Symptoms:
+- Polyuria and polydipsia
+- Fatigue
+- Blurred vision (intermittent)
+- Weight loss of 5kg over last 2 months
+
+Co-morbidities:
+- Hypertension (diagnosed 2021)
+- Hyperlipidemia
+- Obesity (BMI 32.5)
+
+Social History:
+- Non-smoker (ex-smoker, quit 2019)
+- Alcohol: 10 units per week
+- Occupation: Office worker (sedentary)
+
+Reason for Referral:
+Despite optimal oral therapy and lifestyle advice, Mr. Smith's glycemic control remains suboptimal. His HbA1c has increased from 7.8% to 9.2% over the past 6 months. He is now developing early diabetic complications with microalbuminuria detected on recent urinalysis.
+
+I would be grateful for your specialist assessment and advice on:
+1. Optimization of diabetic management (possible insulin initiation)
+2. Cardiovascular risk assessment
+3. Screening for diabetic complications (retinopathy, nephropathy)
+4. Dietary and lifestyle intervention support
+
+Urgency: Routine appointment within 4 weeks
+
+Many thanks for your assistance.
+
+Kind regards,
+
+Dr. Sarah Thompson MBChB MRCGP
+General Practitioner
+Riverside Medical Centre
+123 High Street
+London SE1 7AB
+Tel: 020 7123 4567
+
+--boundary123
+Content-Type: application/pdf; name="lab-results-jan2024.pdf"
+Content-Disposition: attachment; filename="lab-results-jan2024.pdf"
+Content-Transfer-Encoding: base64
+
+[PDF content would be here - base64 encoded]
+Laboratory results showing HbA1c, glucose, lipid panel, and renal function tests.
+
+--boundary123--

@@ -1,0 +1,23 @@
+entity_type,entity_text,expected_icd10,expected_snomed,extracted_icd10,extracted_snomed,match
+diagnosis,Type 2 Diabetes Mellitus,E11.9,44054006,E11.9,44054006,TRUE
+diagnosis,Hypertension,I10,38341003,I10,38341003,TRUE
+diagnosis,Hyperlipidemia,E78.5,55822004,E78.5,55822004,TRUE
+diagnosis,Obesity,E66.9,414916001,E66.9,414916001,TRUE
+diagnosis,Chronic Kidney Disease Stage 2,N18.2,90688005,N18.2,90688005,TRUE
+medication,Metformin,,6809,,6809,TRUE
+medication,Lisinopril,,29046,,29046,TRUE
+procedure,HbA1c Test,,43396009,,43396009,TRUE
+procedure,Fasting Glucose,,271061004,,271061004,TRUE
+procedure,Blood Pressure Measurement,,75367002,,75367002,TRUE
+procedure,BMI Calculation,,60621009,,60621009,TRUE
+procedure,eGFR,,80274001,,80274001,TRUE
+symptom,Polyuria,,28442001,,28442001,TRUE
+symptom,Polydipsia,,17173007,,17173007,TRUE
+symptom,Fatigue,,84229001,,84229001,TRUE
+symptom,Blurred vision,,246636008,,246636008,TRUE
+symptom,Weight loss,,89362005,,89362005,TRUE
+patient_info,Name,,,John Smith,,TRUE
+patient_info,DOB,,,1982-07-14,,TRUE
+patient_info,NHS Number,,,NHS001234,,TRUE
+patient_info,Age,,,41,,TRUE
+patient_info,Gender,,,Male,,TRUE

@@ -1,0 +1,23 @@
+# Architecture Diagram
+
+This file is a placeholder for the architecture diagram PNG image.
+
+To generate the actual diagram:
+
+1. Visit https://mermaid.live/
+2. Copy the contents of `mermaid-architecture.mmd`
+3. Paste into the online editor
+4. Download as PNG and replace this file
+
+Or use the Mermaid CLI:
+```bash
+npm install -g @mermaid-js/mermaid-cli
+mmdc -i mermaid-architecture.mmd -o architecture-diagram.png
+```
+
+The diagram illustrates the complete MedExtract-Pipeline architecture showing:
+- Ingestion via Amazon SES
+- Processing with Lambda and AWS AI services
+- Data storage in S3 and Aurora PostgreSQL
+- Security controls with KMS and CloudTrail
+- Analytics with QuickSight and Amazon Q

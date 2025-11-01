@@ -1,0 +1,68 @@
+MIT License
+
+Copyright (c) 2024 MedExtract-Pipeline Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Healthcare Data Disclaimer
+
+This software is designed to process healthcare data and is provided as a 
+proof-of-concept for demonstration purposes only. The software should NOT be 
+used in production healthcare environments without:
+
+1. Proper validation by qualified healthcare professionals
+2. Compliance review with applicable regulations (HIPAA, GDPR, NHS DSPT, etc.)
+3. Regulatory approval from appropriate authorities
+4. Comprehensive security audit and penetration testing
+5. Appropriate clinical safety validation
+
+## Personal Health Information (PHI)
+
+Users of this software are responsible for ensuring compliance with all 
+applicable laws and regulations regarding the handling of Protected Health 
+Information (PHI) and Personal Confidential Data (PCD), including but not 
+limited to:
+
+- Health Insurance Portability and Accountability Act (HIPAA) - United States
+- General Data Protection Regulation (GDPR) - European Union
+- UK GDPR and Data Protection Act 2018 - United Kingdom
+- NHS Digital Data Security and Protection Toolkit (DSPT) - United Kingdom
+
+## No Medical Advice
+
+This software does not provide medical advice. The extraction and 
+classification of medical information is for administrative and research 
+purposes only and should not be used as a substitute for professional medical 
+judgment.
+
+## Accuracy Disclaimer
+
+While efforts have been made to ensure accuracy, the automated extraction of 
+medical information may contain errors. All extracted data should be reviewed 
+and validated by qualified healthcare professionals before use in clinical 
+decision-making.
+
+## Use at Your Own Risk
+
+Users assume all risks associated with the use of this software. The authors 
+and contributors shall not be held liable for any damages, including but not 
+limited to data loss, system failures, or incorrect medical information 
+extraction that may result from the use of this software.
