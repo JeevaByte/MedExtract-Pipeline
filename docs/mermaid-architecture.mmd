@@ -1,0 +1,66 @@
+```mermaid
+graph TB
+    subgraph "Ingestion Layer"
+        A[NHS Referral Email] -->|TLS Encrypted| B[Amazon SES]
+        B -->|Store Raw Email| C[S3 Bucket<br/>SSE-KMS Encrypted]
+        B -->|Trigger| D[Lambda: SES Ingest Handler]
+    end
+    
+    subgraph "Processing Layer"
+        D -->|Invoke| E[Lambda: Attachment Parser]
+        E -->|Extract Text| F[Amazon Textract]
+        F -->|PDF/Image to Text| E
+        E -->|Store Text| C
+        E -->|Invoke| G[Lambda: Comprehend Worker]
+        
+        G -->|Analyze Text| H[Amazon Comprehend Medical]
+        H -->|Entities & PHI| G
+        G -->|ICD-10 Codes| H
+        H -->|SNOMED CT Codes| G
+        G -->|Store Results| C
+        G -->|Invoke| I[Lambda: Ontology Mapper]
+    end
+    
+    subgraph "Mapping Layer"
+        I -->|Lookup Codes| J[DynamoDB<br/>Ontology Mapping Table]
+        J -->|SNOMED/ICD-10| I
+        I -->|Store Structured Data| C
+        I -->|Invoke| K[Lambda: Postgres Loader]
+    end
+    
+    subgraph "Data Layer"
+        K -->|Insert Records| L[(Aurora PostgreSQL<br/>Serverless v2)]
+        L -->|Tables| M[Patients]
+        L -->|Tables| N[Diagnoses]
+        L -->|Tables| O[Medications]
+        L -->|Tables| P[Procedures]
+    end
+    
+    subgraph "Analytics Layer"
+        L -->|Query| Q[Amazon QuickSight]
+        L -->|Query| R[Amazon Q]
+        Q -->|Visualize| S[Clinical Dashboard]
+        R -->|AI Analysis| T[Insights & Reports]
+    end
+    
+    subgraph "Security & Compliance"
+        U[KMS Keys] -.->|Encrypt| C
+        U -.->|Encrypt| L
+        V[CloudTrail] -.->|Audit All Actions| W[CloudWatch Logs]
+        X[VPC] -.->|Network Isolation| E
+        X -.->|Network Isolation| G
+        X -.->|Network Isolation| I
+        X -.->|Network Isolation| K
+        X -.->|Network Isolation| L
+    end
+    
+    style A fill:#e1f5ff
+    style B fill:#ff9800
+    style C fill:#4caf50
+    style H fill:#9c27b0
+    style F fill:#9c27b0
+    style L fill:#2196f3
+    style J fill:#ff5722
+    style U fill:#f44336
+    style V fill:#f44336
+    style W fill:#f44336

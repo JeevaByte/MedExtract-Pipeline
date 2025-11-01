@@ -1,0 +1,18 @@
+# Example configuration file
+# Copy this to terraform.tfvars and update with your values
+
+aws_region        = "us-east-1"
+project_name      = "medextract-pipeline"
+environment       = "dev"
+ses_email_domain  = "example.com"
+db_master_username = "medextract_admin"
+db_master_password = "CHANGE_ME_SECURE_PASSWORD"
+enable_cloudtrail = true
+vpc_cidr          = "10.0.0.0/16"
+
+tags = {
+  Project     = "MedExtract-Pipeline"
+  ManagedBy   = "Terraform"
+  Compliance  = "NHS-DSPT"
+  Environment = "dev"
+}

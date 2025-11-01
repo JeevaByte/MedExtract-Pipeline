@@ -1,0 +1,31 @@
+entity_text,entity_type,icd10_code,snomed_code,preferred_term,description
+diabetes mellitus,MEDICAL_CONDITION,E11,73211009,Diabetes mellitus,Metabolic disorder of glucose regulation
+type 2 diabetes,MEDICAL_CONDITION,E11.9,44054006,Type 2 diabetes mellitus,Non-insulin dependent diabetes
+hypertension,MEDICAL_CONDITION,I10,38341003,Essential hypertension,High blood pressure
+asthma,MEDICAL_CONDITION,J45.909,195967001,Asthma,Chronic respiratory condition
+depression,MEDICAL_CONDITION,F32.9,35489007,Depressive disorder,Mental health condition
+metformin,MEDICATION,,109081006,Metformin,Oral antidiabetic medication
+lisinopril,MEDICATION,,386873009,Lisinopril,ACE inhibitor for hypertension
+albuterol,MEDICATION,,372897005,Albuterol,Bronchodilator for asthma
+sertraline,MEDICATION,,372653009,Sertraline,SSRI antidepressant
+hba1c test,TEST_TREATMENT_PROCEDURE,,43396009,Hemoglobin A1c measurement,Glycemic control test
+blood pressure measurement,TEST_TREATMENT_PROCEDURE,,75367002,Blood pressure taking,Vital signs assessment
+spirometry,TEST_TREATMENT_PROCEDURE,,127783003,Spirometry,Pulmonary function test
+coronary artery disease,MEDICAL_CONDITION,I25.10,53741008,Coronary arteriosclerosis,Heart disease
+chronic kidney disease,MEDICAL_CONDITION,N18.9,709044004,Chronic kidney disease,Renal impairment
+atrial fibrillation,MEDICAL_CONDITION,I48.91,49436004,Atrial fibrillation,Cardiac arrhythmia
+copd,MEDICAL_CONDITION,J44.9,13645005,Chronic obstructive pulmonary disease,Chronic lung disease
+stroke,MEDICAL_CONDITION,I63.9,230690007,Cerebral infarction,Cerebrovascular accident
+heart failure,MEDICAL_CONDITION,I50.9,84114007,Heart failure,Cardiac insufficiency
+pneumonia,MEDICAL_CONDITION,J18.9,233604007,Pneumonia,Lung infection
+uti,MEDICAL_CONDITION,N39.0,68566005,Urinary tract infection,Bladder infection
+warfarin,MEDICATION,,372756006,Warfarin,Anticoagulant medication
+insulin,MEDICATION,,96367006,Insulin,Hormone for diabetes treatment
+aspirin,MEDICATION,,387458008,Aspirin,Antiplatelet agent
+atorvastatin,MEDICATION,,373444002,Atorvastatin,Statin for cholesterol
+omeprazole,MEDICATION,,387137007,Omeprazole,Proton pump inhibitor
+ecg,TEST_TREATMENT_PROCEDURE,,29303009,Electrocardiogram,Heart rhythm test
+chest x-ray,TEST_TREATMENT_PROCEDURE,,399208008,Chest radiography,Thoracic imaging
+colonoscopy,TEST_TREATMENT_PROCEDURE,,73761001,Colonoscopy,Colon examination
+mri scan,TEST_TREATMENT_PROCEDURE,,113091000,Magnetic resonance imaging,Medical imaging
+ct scan,TEST_TREATMENT_PROCEDURE,,77477000,Computed tomography,Cross-sectional imaging

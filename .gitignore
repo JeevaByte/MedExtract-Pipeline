@@ -32,6 +32,33 @@ ENV/
 *.swo
 *~
 
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfplan
+
+# AWS
+.aws/
+credentials
+
+# Lambda deployment packages
+lambda/**/*.zip
+lambda/**/package/
+deployment*.zip
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
 # Database
 *.db
 *.sqlite
@@ -41,10 +68,19 @@ ENV/
 .pytest_cache/
 .coverage
 htmlcov/
+test-results/
 
-# Logs
-*.log
+# OS
+.DS_Store
+Thumbs.db
 
-# Environment variables
-.env
-.env.local
+# Sensitive data
+secrets/
+*.pem
+*.key
+*.crt
+
+# Backup files
+*.bak
+*.backup
+*~

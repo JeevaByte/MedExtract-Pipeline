@@ -1,0 +1,166 @@
+{
+  "messageId": "msg-001-2024",
+  "patient": {
+    "name": "John Smith",
+    "dob": "1982-07-14",
+    "age": "41",
+    "mrn": "NHS001234",
+    "contact": "07700 900123",
+    "gender": "Male"
+  },
+  "diagnoses": [
+    {
+      "text": "Type 2 Diabetes Mellitus",
+      "icd10_code": "E11.9",
+      "snomed_code": "44054006",
+      "description": "Type 2 diabetes mellitus without complications",
+      "confidence": 0.95,
+      "status": "poorly controlled"
+    },
+    {
+      "text": "Hypertension",
+      "icd10_code": "I10",
+      "snomed_code": "38341003",
+      "description": "Essential (primary) hypertension",
+      "confidence": 0.92,
+      "diagnosed_date": "2021"
+    },
+    {
+      "text": "Hyperlipidemia",
+      "icd10_code": "E78.5",
+      "snomed_code": "55822004",
+      "description": "Hyperlipidemia, unspecified",
+      "confidence": 0.88
+    },
+    {
+      "text": "Obesity",
+      "icd10_code": "E66.9",
+      "snomed_code": "414916001",
+      "description": "Obesity, unspecified",
+      "confidence": 0.90,
+      "details": "BMI 32.5"
+    },
+    {
+      "text": "Chronic Kidney Disease Stage 2",
+      "icd10_code": "N18.2",
+      "snomed_code": "90688005",
+      "description": "Chronic kidney disease, stage 2 (mild)",
+      "confidence": 0.85,
+      "details": "eGFR: 75 ml/min"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dose": "500mg",
+      "frequency": "Twice daily",
+      "route": "Oral",
+      "rxnorm_code": "6809",
+      "confidence": 0.93
+    },
+    {
+      "name": "Lisinopril",
+      "dose": "10mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "indication": "Hypertension",
+      "rxnorm_code": "29046",
+      "confidence": 0.91
+    }
+  ],
+  "procedures": [
+    {
+      "name": "HbA1c Test",
+      "type": "Laboratory",
+      "date": "2024-01-10",
+      "result": "9.2%",
+      "result_units": "77 mmol/mol",
+      "snomed_code": "43396009",
+      "confidence": 0.94
+    },
+    {
+      "name": "Fasting Glucose",
+      "type": "Laboratory",
+      "result": "12.4 mmol/L",
+      "snomed_code": "271061004",
+      "confidence": 0.92
+    },
+    {
+      "name": "Blood Pressure Measurement",
+      "type": "Vital Signs",
+      "result": "145/92 mmHg",
+      "snomed_code": "75367002",
+      "confidence": 0.96
+    },
+    {
+      "name": "BMI Calculation",
+      "type": "Assessment",
+      "result": "32.5",
+      "snomed_code": "60621009",
+      "confidence": 0.98
+    },
+    {
+      "name": "eGFR",
+      "type": "Laboratory",
+      "result": "75 ml/min",
+      "snomed_code": "80274001",
+      "confidence": 0.89
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Polyuria",
+      "snomed_code": "28442001",
+      "confidence": 0.87
+    },
+    {
+      "name": "Polydipsia",
+      "snomed_code": "17173007",
+      "confidence": 0.86
+    },
+    {
+      "name": "Fatigue",
+      "snomed_code": "84229001",
+      "confidence": 0.82
+    },
+    {
+      "name": "Blurred vision",
+      "snomed_code": "246636008",
+      "confidence": 0.85,
+      "frequency": "intermittent"
+    },
+    {
+      "name": "Weight loss",
+      "snomed_code": "89362005",
+      "confidence": 0.88,
+      "details": "5kg over 2 months"
+    }
+  ],
+  "social_history": {
+    "smoking_status": "Ex-smoker",
+    "quit_date": "2019",
+    "alcohol_consumption": "10 units per week",
+    "occupation": "Office worker (sedentary)"
+  },
+  "referral_details": {
+    "referring_physician": "Dr. Sarah Thompson",
+    "referring_practice": "Riverside Medical Centre",
+    "specialty": "Diabetes and Endocrinology",
+    "urgency": "Routine",
+    "timeframe": "4 weeks",
+    "reason": "Poorly controlled Type 2 Diabetes despite optimal oral therapy",
+    "requested_actions": [
+      "Optimization of diabetic management (possible insulin initiation)",
+      "Cardiovascular risk assessment",
+      "Screening for diabetic complications",
+      "Dietary and lifestyle intervention support"
+    ]
+  },
+  "extraction_metadata": {
+    "timestamp": "2024-01-15T09:35:00Z",
+    "pipeline_version": "1.0.0",
+    "extraction_confidence": 0.89,
+    "entity_count": 25,
+    "processing_time_ms": 6550
+  }
+}
