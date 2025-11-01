@@ -1,4 +1,4 @@
-# 🏥 **MedExtract-Pipeline**
+#  **MedExtract-Pipeline**
 
 *A secure, serverless AWS AI/ML pipeline for extracting and structuring clinical data from referral emails and documents.*
 
@@ -16,7 +16,7 @@ This project closely mirrors real NHS and UK healthcare workflows, adhering to *
 
 ---
 
-## 🏗️ **Architecture Overview**
+##  **Architecture Overview**
 
 ### **Workflow**
 
@@ -30,7 +30,7 @@ This project closely mirrors real NHS and UK healthcare workflows, adhering to *
 
 ---
 
-## 📁 **Repository Structure**
+##  **Repository Structure**
 
 ```
 MedExtract-Pipeline/
@@ -80,7 +80,7 @@ MedExtract-Pipeline/
 
 ---
 
-## ⚙️ **Key Components**
+##  **Key Components**
 
 | Component            | Purpose                                     | AWS Service                                |
 | -------------------- | ------------------------------------------- | ------------------------------------------ |
@@ -95,18 +95,18 @@ MedExtract-Pipeline/
 
 ---
 
-## 🔒 **Security & Compliance Highlights**
+##  **Security & Compliance Highlights**
 
-* ✅ **TLS Enforced** on all SES inbound connections
-* ✅ **S3 SSE-KMS Encryption** with dedicated CMK and least-privilege key policy
-* ✅ **IAM Roles** segregated per Lambda function
-* ✅ **CloudTrail + CloudWatch Logs** for full audit traceability
-* ✅ **No public endpoints** — all resources accessed through VPC endpoints
-* ✅ **Alignment with NHS DSPT and UK GDPR PCD** data-handling standards
+*  **TLS Enforced** on all SES inbound connections
+*  **S3 SSE-KMS Encryption** with dedicated CMK and least-privilege key policy
+*  **IAM Roles** segregated per Lambda function
+*  **CloudTrail + CloudWatch Logs** for full audit traceability
+*  **No public endpoints** — all resources accessed through VPC endpoints
+*  **Alignment with NHS DSPT and UK GDPR PCD** data-handling standards
 
 ---
 
-## 🚀 **Quick Start**
+##  **Quick Start**
 
 ### **Prerequisites**
 
@@ -144,7 +144,7 @@ terraform output
 
 ---
 
-## 📊 **Example Output (Simplified JSON)**
+##  **Example Output (Simplified JSON)**
 
 ```json
 {
@@ -169,7 +169,7 @@ terraform output
 
 ---
 
-## 🧮 **Database Schema (PostgreSQL)**
+##  **Database Schema (PostgreSQL)**
 
 **Table: `patients`**
 | Column | Type | Description |
@@ -200,7 +200,7 @@ terraform output
 
 ---
 
-## 🧰 **Technologies Used**
+##  **Technologies Used**
 
 * **Python 3.11**, **Boto3**, **Pandas**
 * **AWS Services**: SES, S3, Lambda, Textract, Comprehend Medical, DynamoDB, Aurora PostgreSQL
@@ -209,7 +209,7 @@ terraform output
 
 ---
 
-## 🧪 **Evaluation Results (Demo Dataset)**
+##  **Evaluation Results (Demo Dataset)**
 
 | Metric                      | Result |
 | --------------------------- | ------ |
@@ -220,17 +220,17 @@ terraform output
 
 ---
 
-## 🧭 **Future Enhancements**
+##  **Future Enhancements**
 
-* 🔮 Integrate **Amazon Bedrock** for LLM-based summarization of referrals
-* 🏥 Add **FHIR-compatible APIs** for interoperability with EHR systems
-* 🤖 Deploy **Amazon SageMaker endpoint** for custom fine-tuned NER model
-* 🌍 Extend to multi-region architecture for NHS Trust segmentation
-* 📱 Add web interface for clinician review and validation
+*  Integrate **Amazon Bedrock** for LLM-based summarization of referrals
+*  Add **FHIR-compatible APIs** for interoperability with EHR systems
+*  Deploy **Amazon SageMaker endpoint** for custom fine-tuned NER model
+*  Extend to multi-region architecture for NHS Trust segmentation
+*  Add web interface for clinician review and validation
 
 ---
 
-## 📚 **Documentation**
+##  **Documentation**
 
 - [Architecture Diagram](docs/architecture-diagram.png)
 - [Deployment Guide](docs/deployment-guide.md)
@@ -239,19 +239,19 @@ terraform output
 
 ---
 
-## 🤝 **Contributing**
+##  **Contributing**
 
 Contributions are welcome! Please read our contributing guidelines and submit pull requests.
 
 ---
 
-## 📄 **License**
+##  **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 **Acknowledgments**
+##  **Acknowledgments**
 
 * AWS Comprehend Medical team for excellent healthcare NLP capabilities
 * NHS Digital for healthcare data standards
@@ -259,7 +259,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 **Contact**
+##  **Contact**
 
 For questions or collaboration opportunities, please open an issue or contact the maintainers.
 
